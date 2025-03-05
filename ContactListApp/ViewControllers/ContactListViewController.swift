@@ -30,6 +30,8 @@ final class ContactListViewController: UITableViewController {
         
         let contactDetailsVC = segue.destination as? ContactDetailsViewController
         contactDetailsVC?.contact = contactList[indexPath.row]
+        
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back")
     }
 }
 
