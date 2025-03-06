@@ -5,7 +5,7 @@
 //  Created by Ast on 05.03.2025.
 //
 
-class DataStore {
+final class DataStore {
     let firstName = [
         "Joe",
         "John",
