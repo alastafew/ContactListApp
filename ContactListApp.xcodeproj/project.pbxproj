@@ -44,7 +44,7 @@
 		0E4745542D78DCA500F5413F /* Exceptions for "Models" folder in "ContactListApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				RandomPersonGenerator.swift,
+				RandomPersonsGenerator.swift,
 			);
 			target = A83074422D7622F700164C7F /* ContactListApp */;
 		};

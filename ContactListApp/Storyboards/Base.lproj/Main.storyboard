@@ -127,9 +127,7 @@
                             <constraint firstItem="gOT-zp-oJT" firstAttribute="trailing" secondItem="2df-lA-wTN" secondAttribute="trailing" constant="20" id="ysV-l7-Ur4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Zzw-mZ-d3F">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="7Q3-LZ-9TD"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Zzw-mZ-d3F"/>
                     <connections>
                         <outlet property="emailLabel" destination="Tmj-7V-IrG" id="bBs-fE-lt7"/>
                         <outlet property="fullNameLabel" destination="FdO-rF-OSe" id="JtB-Bv-u5X"/>

@@ -1,5 +1,5 @@
 //
-//  RandomPersonGenerator.swift
+//  RandomPersonsGenerator.swift
 //  ContactList
 //
 //  Created by Ast on 05.03.2025.
@@ -13,7 +13,7 @@ struct Person {
     let email: String
 }
 
-func generateRandomPerson(count: Int) -> [Person] {
+func generateRandomPerson() -> [Person] {
     let dataStore = DataStore()
     
     let firstNames = dataStore.firstName.shuffled()
@@ -23,7 +23,7 @@ func generateRandomPerson(count: Int) -> [Person] {
     
     var contactList: [Person] = []
     
-    for index in 0..<min(count,firstNames.count) {
+    for index in 0..<firstNames.count {
         let person = Person(
             firstName: firstNames[index],
             lastName: lastNames[index],

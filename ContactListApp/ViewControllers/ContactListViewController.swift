@@ -10,24 +10,21 @@ import UIKit
 final class ContactListViewController: UITableViewController {
     
     // MARK: - Private Properties
-    private let contactList = generateRandomPerson(count: 15)
+    private let contactList = generateRandomPerson()
     
     // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 60
-
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else {
             return
         }
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back")
+        //navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back")
         
         let contactDetailsVC = segue.destination as? ContactDetailsViewController
         contactDetailsVC?.contact = contactList[indexPath.row]
-        
     }
 }
 
@@ -52,6 +49,4 @@ extension ContactListViewController {
         cell.contentConfiguration = content
         return cell
     }
-    
-
 }
