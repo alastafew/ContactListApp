@@ -6,41 +6,44 @@
 //
 
 final class DataStore {
-    let firstName = [
-        "Joe",
+    
+    let names = [
+        "Joseph",
         "John",
         "Freddy",
         "Michael",
         "Elton",
         "Alice",
-        "Bob",
+        "Bobby",
         "Charlie",
         "David",
-        "Emma",
-        "Ted",
-        "Uma",
-        "Violet",
+        "Emmanuel",
+        "Teddy",
+        "Alexandra",
+        "Violeta",
         "William",
         "Xavier"
     ]
-    let lastName = [
-        "Satriani",
-        "Lennon",
-        "Mercury",
-        "Jackson",
-        "John",
-        "Anderson",
-        "Brown",
-        "Clark",
-        "Davis",
-        "Evans",
-        "Fox",
-        "Green",
+    
+    let surnames = [
+        "Black-Coffee",
+        "Lennon-Beat",
+        "Mercury-Star",
+        "Jackson-Five",
+        "JAdamson-Hit",
+        "MCAnderson",
+        "Brown-Sugar",
+        "Clark-Levin",
+        "Harley-Davison",
+        "EvansMCMaffin",
+        "Foxberry",
+        "Green-Design",
         "Harrison",
-        "King",
-        "Lopez"
+        "Kingleymann",
+        "Lopezzzzzz"
     ]
-    let phoneNumber = [
+    
+    let phones = [
         "+1234567890",
         "+0987654321",
         "+1122334455",
@@ -57,7 +60,8 @@ final class DataStore {
         "+7788990011",
         "+8899001122"
     ]
-    let email = [
+    
+    let emails = [
         "mybox@email.com",
         "textme@ya.com",
         "email@mail.com",

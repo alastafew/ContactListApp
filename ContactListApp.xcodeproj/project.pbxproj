@@ -21,7 +21,8 @@
 			membershipExceptions = (
 				ContactDetailsViewController.swift,
 				ContactListViewController.swift,
-				TabBarController.swift,
+				SectionTableViewController.swift,
+				TabBarViewController.swift,
 			);
 			target = A83074422D7622F700164C7F /* ContactListApp */;
 		};
@@ -44,7 +45,7 @@
 		0E4745542D78DCA500F5413F /* Exceptions for "Models" folder in "ContactListApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				RandomPersonsGenerator.swift,
+				Person.swift,
 			);
 			target = A83074422D7622F700164C7F /* ContactListApp */;
 		};

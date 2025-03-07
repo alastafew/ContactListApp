@@ -10,18 +10,16 @@ import UIKit
 final class ContactDetailsViewController: UIViewController {
     
     // MARK: - IBOutlets
-    @IBOutlet private var fullNameLabel: UILabel!
     @IBOutlet private var phoneNumberLabel: UILabel!
     @IBOutlet private var emailLabel: UILabel!
     
-    // MARK: - Public Properties
-    var contact: Person!
+    var person: Person!
     
-    // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        fullNameLabel.text = "\(contact.firstName) \(contact.lastName)"
-        phoneNumberLabel.text = "Phone: \(contact.phoneNumber)"
-        emailLabel.text = "Email: \(contact.email)"
+        title = person.fullName
+        emailLabel.text = "Email: \(person.email)"
+        phoneNumberLabel.text = "Phone: \(person.phoneNumber)"
     }
+
 }
